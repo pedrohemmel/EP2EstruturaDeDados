@@ -42,3 +42,9 @@ Quando chamado a função, será verificado se a árvore é nula(se não tem nen
 
 Para criação da BST com AVL implementada, quando a função *createSamplesBST(nwNode nwNd, int key)* for chamada, vai ser inserido o número do mesmo jeito que é inserido na BST, mas após isso é feito o cálculo do fator de balanceamento, e logo em seguida, a rotação, seja pra direita ou para esquerda assim formando uma BST com AVL.
 
+
+### Lógica dos números randômicos
+
+Quando o usuário insere quantos nós ele vai querer, é criado uma array com o tamanho da quantidade de nós, após isso é inserido valores estritamente crescentes dentro da array (EX.: 1, 2, 3, 4, 5...).
+
+Antes dos números serem inseridos dentro da árvores, são gerados números aleatórios para serem usados como indices da array, para cada indice aleatório criado, é feito uma troca do número desse índice para os indices na sequencia certa.
